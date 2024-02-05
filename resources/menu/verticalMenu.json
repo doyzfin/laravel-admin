@@ -1,0 +1,33 @@
+{
+  "menu": [
+    {
+      "url": "",
+      "name": "Master",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard",
+      "submenu": [
+        {
+          "url": "/",
+          "name": "Dashboard",
+          "slug": "dashboard-analytics"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Data"
+    },
+    {
+      "url": "",
+      "name": "Data Master",
+      "icon": "menu-icon tf-icons bx bx-windows",
+      "slug": "master",
+      "submenu": [
+        {
+          "url": "/master/menu",
+          "name": "Menus",
+          "slug": "master-menu"
+        }
+      ]
+    }
+  ]
+}
