@@ -26,6 +26,11 @@
           "url": "/master/menu",
           "name": "Menus",
           "slug": "master-menu"
+        },
+        {
+          "url": "/master/sub-menu",
+          "name": "Sub Menus",
+          "slug": "sub-master-menu"
         }
       ]
     }

@@ -1,7 +1,7 @@
 <?php
 // Variables
 return [
-  'creatorName' => 'ThemeSelection',
+  'creatorName' => 'Doyzfin',
   'creatorUrl' => 'https://themeselection.com',
   'templateName' => 'KOPNUS',
   'templateSuffix' => 'Bootstrap 5 HTML Laravel Free Admin Template',

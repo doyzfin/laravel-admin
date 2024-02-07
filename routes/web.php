@@ -119,3 +119,6 @@ Route::get('/tables/basic', [TablesBasic::class, 'index'])->name('tables-basic')
 
 // menus
 Route::get('/master/menu', [MenusController::class, 'index'])->name('master-menu');
+Route::get('/master/menu/create', [MenusController::class, 'create'])->name('master-menu-create');
+Route::post('/menu/create', [MenusController::class, 'store'])->name('menusStore');
+Route::delete('/menu/delete/{id}', [MenusController::class, 'destroy'])->name('deleteMenu');
